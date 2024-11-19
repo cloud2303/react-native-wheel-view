@@ -9,13 +9,13 @@ IOS使用系统组件
 ## Installation
 
 ```sh
-npm install cloud2303/react-native-wheel-view
+npm install react-native-wheel-view-view
 ```
 
 ## Usage
 
 ```js
-import { WheelViewView } from 'cloud2303/react-native-wheel-view';
+import { WheelViewView } from 'react-native-wheel-view-view';
 
 // 高度不能为0
 <WheelViewView
