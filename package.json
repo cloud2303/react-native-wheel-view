@@ -1,5 +1,5 @@
 {
-  "name": "react-native-wheel-view",
+  "name": "@cloud2303/react-native-wheel-view",
   "version": "0.1.0",
   "description": "native wheel view",
   "source": "./src/index.tsx",

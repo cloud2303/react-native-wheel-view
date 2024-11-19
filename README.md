@@ -1,17 +1,21 @@
 # react-native-wheel-view
 
-native wheel view
+原生滚轮组件，安卓IOS均为原生实现
+
+安卓使用[WheelPicker]("https://github.com/devaige/WheelPicker")
+
+IOS使用系统组件
 
 ## Installation
 
 ```sh
-npm install react-native-wheel-view
+npm install @cloud2303/react-native-wheel-view
 ```
 
 ## Usage
 
 ```js
-import { WheelViewView } from 'react-native-wheel-view';
+import { WheelViewView } from '@cloud2303/react-native-wheel-view';
 
 // 高度不能为0
 <WheelViewView
