@@ -10,15 +10,20 @@ npm install react-native-wheel-view
 
 ## Usage
 
-
 ```js
-import { WheelViewView } from "react-native-wheel-view";
+import { WheelViewView } from 'react-native-wheel-view';
 
-// ...
-
-<WheelViewView color="tomato" />
+// 高度不能为0
+<WheelViewView
+  style={{ flex: 1 }}
+  data={['1', '2', '3', '4', '5']}
+  selectedIndex={selectedIndex}
+  onItemSelected={(event) => {
+    console.log(event.nativeEvent.data, event.nativeEvent.position, '选中的');
+    setSelectedIndex(event.nativeEvent.position);
+  }}
+/>;
 ```
-
 
 ## Contributing
 
